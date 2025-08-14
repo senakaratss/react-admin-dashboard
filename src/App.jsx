@@ -4,7 +4,8 @@ import ProductsPage from "./pages/ProductsPage";
 import UsersPage from "./pages/UsersPage";
 import SalesPage from "./pages/SalesPage";
 import OrdersPage from "./pages/OrdersPage";
-import Sidebar from "./components/Sidebar";
+import SettingsPage from "./pages/SettingsPage";
+import Sidebar from "./components/common/Sidebar";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/users" element={<UsersPage />} />
         <Route path="/sales" element={<SalesPage />} />
         <Route path="/orders" element={<OrdersPage />} />
+        <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </div>
   );
