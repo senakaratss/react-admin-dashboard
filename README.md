@@ -33,7 +33,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/react-admin-dashboard.git
+git clone https://github.com/senakaratss/react-admin-dashboard.git
 
 # Go into the project folder
 cd react-admin-dashboard
